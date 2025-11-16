@@ -1,0 +1,75 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-04-17T13:18:54.514Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "user1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9kpre76tj32zsj8qm25g68d4hs1hvvz9",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFDeQgu3fsNZOgMUjWQlHZl_HfbpAvd3nPOfYuI61Li2nmOE4mLUOL0uyUcn1x3QA-s9ybHVpd5SnJX5EG7vDXi1_Vw_w4K9rLVXgXvtaOzYucMa2AKGsESGo_MkAcCAquH7ExQJluNHpIB7Yk2I4vPF8ozN3M:1u5Oau:h7nYH5vJQr7QvMmB-pxFx9XkjD2i7XGKWr0pO0a0TP4",
+        "expire_date": "2025-05-01T12:43:52.814Z"
+    }
+},
+{
+    "model": "api_restaurant.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$leDYYyD1HTiydzuuvElFIT$iDKW2xRYC01hMFX3JlEG8R81C10DG13L5Cw5sETa1ik=",
+        "last_login": "2025-04-17T12:43:52.811Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-04-17T11:49:28.029Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "api_restaurant.restaurant",
+    "pk": 1,
+    "fields": {
+        "name": "Italy",
+        "address": "Санкт-Петербург, улица Рубинштейна, д.7/2"
+    }
+},
+{
+    "model": "api_restaurant.table",
+    "pk": 1,
+    "fields": {
+        "restaurant": 1,
+        "table_number": "1",
+        "capacity": 2
+    }
+}
+]
